@@ -1,7 +1,6 @@
 variable "vault_address" {
   description = "Vault Address"
   default     = "https://vault.horna.local"
-  
 }
 variable "vault_role_id" {
   sensitive   = true
